@@ -1,0 +1,117 @@
+/* Main section styling */
+.home-products {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.home-products .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Product container */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Card layout for each product */
+.product-card {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Wishlist and view icons */
+.wishlist-btn, .view-btn {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.wishlist-btn {
+    right: 10px;
+}
+
+.view-btn {
+    left: 10px;
+}
+
+.wishlist-btn:hover, .view-btn:hover {
+    background-color: #e63946;
+}
+
+/* Product image */
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+/* Product name and price */
+.product-card .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.price-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 1rem;
+    color: #e63946;
+}
+
+.qty {
+    width: 50px;
+    padding: 0.3rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to cart button */
+.product-card .btn {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+    background-color: #1d3557;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+    background-color: #457b9d;
+}

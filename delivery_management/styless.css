@@ -1,0 +1,184 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container for login/register */
+.login-register-container {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form heading */
+.login-register-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.login-register-container h5 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-register-container input[type="email"],
+.login-register-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.login-register-container input[type="email"]:focus,
+.login-register-container input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Login button */
+.login-register-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-register-container button:hover {
+    background-color: #45a049;
+}
+
+/* Register link */
+.login-register-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-register-container p a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-register-container p a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    font-size: 14px;
+}
+ /* Container for login/register */ 
+.login-register-container {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form heading */
+.login-register-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.login-register-container h5 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-register-container input[type="text"],
+.login-register-container input[type="email"],
+.login-register-container input[type="password"],
+.login-register-container input[type="phone"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.login-register-container input[type="text"]:focus,
+.login-register-container input[type="email"]:focus,
+.login-register-container input[type="password"]:focus,
+.login-register-container input[type="phone"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Register button */
+.login-register-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-register-container button:hover {
+    background-color: #45a049;
+}
+
+/* Register and login link */
+.login-register-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-register-container p a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-register-container p a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    font-size: 14px;
+}
+

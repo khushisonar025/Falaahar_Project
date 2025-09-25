@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.header .logo span {
+    color: #ff5722;
+}
+
+.header .navbar a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.header .navbar a:hover {
+    color: #4caf50;
+}
+
+.header .icons .fas {
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.header .profile {
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    display: none;
+}
+
+.header .profile p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.header .profile .btn, .header .profile .option-btn, .header .profile .delete-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px 0;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.header .profile .btn {
+    background: #4caf50;
+    color: #fff;
+}
+
+.header .profile .btn:hover {
+    background: #45a049;
+}
+
+.header .profile .option-btn {
+    background: #ff9800;
+    color: #fff;
+}
+
+.header .profile .option-btn:hover {
+    background: #e68a00;
+}
+
+.header .profile .delete-btn {
+    background: #f44336;
+    color: #fff;
+}
+
+.header .profile .delete-btn:hover {
+    background: #d32f2f;
+}
