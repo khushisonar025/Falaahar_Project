@@ -43,6 +43,6 @@ This project aims to digitalize small-town fresh produce markets by providing:
   
  👩‍💻 Author
 Khushi Sonar
-📧 [sonarkhushi313@gmail.com](mailto:sonarkhushi51@gmail.com)
+📧 [sonarkhushi51@gmail.com](mailto:sonarkhushi51@gmail.com)
 🔗 [LinkedIn]www.linkedin.com/in/khushi-sonar-a85857267 | [GitHub](https://github.com/khushisonar025)
 
